@@ -25,6 +25,12 @@ $ psql -d tunr_db < db/schema.sql
 
 ## Part 1.3 - Use your Artist Model
 
+> Remember to seed your database before running the commands below
+
+```bash
+$ psql -d tunr_db < db/seeds.sql
+```
+
 In the console:
 
 1. Find all artists
